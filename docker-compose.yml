@@ -1,0 +1,12 @@
+services:
+  db:
+    image: postgres:18.3
+    container_name: spring-backend-db
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: dev_db
+    ports:
+      - "5440:5432"
+    volumes:
+      - ./postgres_data:/var/lib/postgresql

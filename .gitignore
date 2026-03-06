@@ -1,0 +1,16 @@
+# Java/Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+
+# Docker & Local DB
+postgres_data/
+.env
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log

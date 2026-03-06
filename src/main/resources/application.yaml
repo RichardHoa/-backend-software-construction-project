@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: backend-software-construction
+  datasource:
+    url: jdbc:postgresql://localhost:5440/dev_db
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    enabled: true
